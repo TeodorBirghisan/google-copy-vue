@@ -3,6 +3,7 @@
     <body>
       <div class="container">
         <Header />
+        <Search />
       </div>
     </body>
   </html>
@@ -10,11 +11,13 @@
 
 <script>
 import Header from '../src/components/Header';
+import Search from '../src/components/Search';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Search
   }
 }
 </script>
